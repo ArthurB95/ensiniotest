@@ -1,0 +1,241 @@
+.containerHome {
+  color: white; 
+  height: 100vh; 
+  background-image: linear-gradient(to right, rgba(95, 65, 217, 1), rgba(65, 181, 217, 1));
+  text-align: center; 
+  display: flex; 
+}
+
+.container {
+  margin-top: 15rem;
+  margin-left: 10rem;
+  text-align: left;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 1.6rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.text {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.imagem {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  margin-left: 8rem;
+  margin-top: 11.55rem;
+  z-index: 1;
+  padding: 10px; 
+}
+
+.iconPlaylists {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -13.7rem;
+  margin-bottom: 5rem;
+}
+
+.subtitlePensamos {
+  color: #432E98;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.verVideo {
+  display: flex;
+  align-items: center;
+}
+
+/* CSS CARDS */
+
+.containerPosts {
+  height: 100vh; 
+  background-color: '#FFFFFF';
+  display: flex; 
+}
+
+.imagesCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: -5rem;
+}
+
+.containerPostsDados {
+  margin: 10rem;
+  width: 100%;
+}
+
+.informacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titlePostContainer {
+  margin-top: 1rem;
+}
+
+.titlePosts {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.titleCards {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: -3rem;
+  margin-top: 2rem;
+}
+
+.text {
+  padding: 4rem 4rem 4rem 0;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.linhaHorizontal {
+    border-top: 0.1rem solid #E7E7E9; 
+}
+
+.linhaHorizontalSubtitle {
+  border-top: 0.1rem solid #5F41D9; 
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1640px) {
+  .imagem {
+    display: none;
+  }
+
+  .iconPlaylists {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .containerHome {
+    justify-content: center;
+    text-align: left; 
+    display: flex; 
+    align-items: center;
+    margin-top: -15rem;
+    margin-left: -5rem;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    margin-bottom: 1rem;
+  }
+
+  .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -3rem;
+  }
+
+  .text{
+    font-size: 13px;
+    width: 25rem;
+    margin-bottom: -2rem;
+  }
+
+  .buttonContainer {
+    display: inline-block;
+  }
+
+  .verVideo {
+    margin-top: 2rem;
+    margin-left: 2rem
+  }
+
+  .containerPosts {
+    justify-content: left;
+    text-align: left; 
+    display: flex; 
+    align-items: center;
+    margin-top: -19rem;
+    margin-left: -7rem;
+    margin-right: 5rem;
+  }
+
+  .informacoes{
+    margin-top: 35rem;
+  }
+
+  .titlePosts {
+    font-size: 15px;
+    width: 20rem;
+  }
+
+  .imagesCards {
+    visibility: hidden;
+  }
+
+  .cardsContainer {
+    display: inline-block;
+  }
+
+  .linhaHorizontal {
+    width: 20rem;
+  }
+
+  .footer {
+    width: 20rem;
+    align-items: center;
+    display: inline-block
+  }
+
+  .footerResponsivo {
+    visibility: hidden;
+
+  }
+
+  .verMaisResponsivo {
+    width: 20rem;
+  }
+
+
+}

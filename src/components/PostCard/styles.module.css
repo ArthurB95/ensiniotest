@@ -1,0 +1,75 @@
+.containerPosts {
+  height: 100vh; /* Equivalente a h-screen no Tailwind CSS */
+  background-color: '#FFFFFF';
+  display: flex; 
+}
+
+.containerPostsDados {
+  margin: 10rem;
+  width: 100%;
+}
+
+.informacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titlePostContainer {
+  margin-top: 1rem;
+}
+
+.titlePosts {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.titleCards {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: -3rem;
+  margin-top: 2rem;
+}
+
+.text {
+  padding: 4rem 4rem 4rem 0;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.linhaHorizontal {
+    border-top: 0.1rem solid #E7E7E9; /* Cor e largura da linha */
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 540px) {
+  
+  .titleCards {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 15px;
+    width: 23rem;
+  }
+
+  .cardsContainer {
+    margin-top: -3rem;
+  }
+
+}
